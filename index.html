@@ -71,8 +71,8 @@ function getLocation() {
 function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
-  var lat=position.coords.latitude;
-  var long=position.coords.longitude;
+  var lat=String(position.coords.latitude);
+  var long=String(position.coords.longitude);
   var Latitude="22.4659332"
   var Longitude="87.9663987"
   if(Latitude.slice(0,8)==lat.slice(0,8) &&  Longitude.slice(0,8)==long.slice(0,8))
