@@ -71,9 +71,9 @@ function getLocation() {
 function showPosition(position) {
   x.innerHTML = "Latitude: " + position.coords.latitude + 
   "<br>Longitude: " + position.coords.longitude;
-  var Latitude="22.4659338"
-  var Longitude="87.9663984"
-  if(Latitude==position.coords.latitude)
+  var Latitude="22.4659332"
+  var Longitude="87.9663987"
+  if(Latitude==position.coords.latitude &&  Longitude==position.coords.longitude)
   {
    var song=document.getElementById("song1");
    song.play();
