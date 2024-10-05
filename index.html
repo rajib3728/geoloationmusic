@@ -75,7 +75,7 @@ function showPosition(position) {
   var long=String(position.coords.longitude);
   var Latitude="22.4659332"
   var Longitude="87.9663987"
-  if(Latitude.slice(0,8)==lat.slice(0,8) &&  Longitude.slice(0,8)==long.slice(0,8))
+  if(Latitude.slice(0,5)==lat.slice(0,5) &&  Longitude.slice(0,5)==long.slice(0,5))
   {
    var song=document.getElementById("song1");
    song.play();
